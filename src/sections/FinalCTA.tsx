@@ -56,11 +56,12 @@ export default function FinalCTA() {
           ref={subRef}
           className="font-poppins text-base text-[#a0a0a0] mt-6 max-w-[600px] mx-auto"
         >
-          Presented by a Fashion Merchandiser candidate focused on innovation, sourcing, and scalable growth.
+          Presented by Sandeep Majhi (BFT, New Delhi) — Fashion Merchandiser candidate focused on innovation, sourcing, and scalable growth.
         </p>
 
         <button
           ref={btnRef}
+          onClick={() => window.print()}
           className="mt-10 bg-[#e88724] text-black px-12 py-4 font-poppins font-semibold text-base uppercase tracking-wider hover:bg-white hover:text-black hover:-translate-y-0.5 hover:shadow-[0_8px_32px_rgba(232,135,36,0.3)] transition-all duration-300"
         >
           Download Proposal PDF

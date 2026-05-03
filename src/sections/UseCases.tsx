@@ -1,7 +1,7 @@
 import { useEffect, useRef } from 'react'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
-import { UserPlus, Crown, Trophy, Calendar, Handshake, HeartHandshake } from 'lucide-react'
+import { UserPlus, Crown, Trophy, Calendar, Handshake, HeartHandshake, Gift, Rocket, Globe } from 'lucide-react'
 
 gsap.registerPlugin(ScrollTrigger)
 
@@ -35,6 +35,21 @@ const useCases = [
     icon: HeartHandshake,
     title: 'Client Retention Gifts',
     desc: 'Show appreciation with a gift that travels \u2014 and keeps your brand visible.',
+  },
+  {
+    icon: Gift,
+    title: 'Festival & Diwali Gifting',
+    desc: 'Elevate festive corporate gifting beyond sweets and hampers with a gift that lasts all year.',
+  },
+  {
+    icon: Rocket,
+    title: 'Startup Investor Kits',
+    desc: 'Impress investors and advisors with a premium-branded bag that signals ambition and taste.',
+  },
+  {
+    icon: Globe,
+    title: 'Export & International Clients',
+    desc: 'Ship globally as a premium India-made gift — sustainable credentials appeal worldwide.',
   },
 ]
 

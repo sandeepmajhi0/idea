@@ -50,8 +50,7 @@ export default function ProductReveal() {
     const st = ScrollTrigger.create({
       trigger: containerRef.current,
       start: 'top top',
-      end: 'bottom top',
-      pin: true,
+      end: 'bottom bottom',
       onUpdate: (self) => {
         const targetFrame = Math.floor(self.progress * (frameCount - 1))
         if (targetFrame !== currentFrame.current) {

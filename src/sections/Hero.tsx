@@ -92,8 +92,11 @@ export default function Hero() {
             ref={badgeRef}
             className="inline-block mt-8 opacity-0 border border-[#e88724] px-6 py-2.5"
           >
-            <span className="font-poppins font-medium text-xs uppercase tracking-[2px] text-[#e88724]">
+            <span className="font-poppins font-medium text-xs uppercase tracking-[2px] text-[#e88724] block">
               FASHION MERCHANDISER CANDIDATE
+            </span>
+            <span className="font-poppins font-semibold text-sm text-white mt-1 block">
+              Sandeep Majhi (BFT, New Delhi)
             </span>
           </div>
 

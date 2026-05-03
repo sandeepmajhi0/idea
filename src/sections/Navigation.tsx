@@ -68,7 +68,7 @@ export default function Navigation() {
         </div>
 
         {/* Desktop CTA */}
-        <button className="hidden md:block border border-[#e88724] text-[#e88724] px-5 py-2 font-poppins text-xs uppercase tracking-wider hover:bg-[#e88724] hover:text-black transition-all duration-300">
+        <button onClick={() => window.print()} className="hidden md:block border border-[#e88724] text-[#e88724] px-5 py-2 font-poppins text-xs uppercase tracking-wider hover:bg-[#e88724] hover:text-black transition-all duration-300">
           Download Proposal
         </button>
 
@@ -121,6 +121,7 @@ export default function Navigation() {
             </a>
           ))}
           <button
+            onClick={() => { setMobileOpen(false); window.print() }}
             className="mt-4 border border-[#e88724] text-[#e88724] px-8 py-3 font-poppins text-sm uppercase tracking-wider hover:bg-[#e88724] hover:text-black transition-all duration-300"
             style={{
               transitionDelay: mobileOpen ? `${navLinks.length * 60}ms` : '0ms',
