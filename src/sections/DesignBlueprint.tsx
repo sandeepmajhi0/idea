@@ -177,7 +177,7 @@ export default function DesignBlueprint() {
           <div ref={imageRef} className="flex flex-col items-center justify-center gap-6">
             <div className="relative">
               <img
-                src="/images/frame-05.jpg"
+                src="images/frame-05.jpg"
                 alt="Ideacraft Nomad Tech Organizer — compartment view"
                 className="w-full max-w-[360px] h-auto object-contain rounded-lg"
               />

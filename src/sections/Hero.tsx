@@ -127,7 +127,7 @@ export default function Hero() {
         >
           <div className="relative">
             <img
-              src="/images/frame-12.jpg"
+              src="images/frame-12.jpg"
               alt="Ideacraft Nomad Tech Organizer"
               className="w-full max-w-[500px] h-auto object-contain drop-shadow-2xl"
             />

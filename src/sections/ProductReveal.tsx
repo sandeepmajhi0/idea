@@ -5,7 +5,7 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 const frameCount = 12
-const sequenceImages = Array.from({ length: frameCount }, (_, i) => `/images/frame-${String(i + 1).padStart(2, '0')}.jpg`)
+const sequenceImages = Array.from({ length: frameCount }, (_, i) => `images/frame-${String(i + 1).padStart(2, '0')}.jpg`)
 
 const featureCards = [
   { id: 1, title: 'RFID PROTECTION', desc: 'Secure passport and card storage with dedicated shielded pocket.', startFrame: 2, endFrame: 4, align: 'right' as const },
