@@ -61,7 +61,7 @@ export default function CandidateValue() {
 
         <div className="mt-6">
           <ScrambleText
-            text="Beyond Product Design \u2014 Built with Merchandising Logic"
+            text="Designed & Conceptualized by Sandeep Majhi"
             className="font-poppins font-medium text-[clamp(28px,3.5vw,42px)] text-white leading-[1.2]"
           />
         </div>

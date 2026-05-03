@@ -50,7 +50,8 @@ export default function ProductReveal() {
     const st = ScrollTrigger.create({
       trigger: containerRef.current,
       start: 'top top',
-      end: 'bottom bottom',
+      end: '+=150%',
+      pin: true,
       onUpdate: (self) => {
         const targetFrame = Math.floor(self.progress * (frameCount - 1))
         if (targetFrame !== currentFrame.current) {
@@ -116,9 +117,9 @@ export default function ProductReveal() {
     <div
       ref={containerRef}
       id="product"
-      className="relative w-full h-[240vh] bg-black overflow-hidden"
+      className="relative w-full h-screen bg-black overflow-hidden"
     >
-      <div className="sticky top-0 h-screen w-full flex items-center justify-center">
+      <div className="w-full h-full flex items-center justify-center">
         {/* Section label */}
         <div className={`absolute top-10 left-10 z-20 transition-all duration-700 ${titleVisible ? 'opacity-100' : 'opacity-0'}`}>
           <span className="font-poppins font-semibold text-xs uppercase tracking-[2px] text-[#e88724]">

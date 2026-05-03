@@ -133,6 +133,10 @@ export default function Hero() {
               src="images/frame-12.jpg"
               alt="Ideacraft Nomad Tech Organizer"
               className="w-full max-w-[500px] h-auto object-contain drop-shadow-2xl"
+              style={{
+                maskImage: 'radial-gradient(ellipse at center, black 65%, transparent 100%)',
+                WebkitMaskImage: 'radial-gradient(ellipse at center, black 65%, transparent 100%)',
+              }}
             />
             {/* Glow effect */}
             <div
